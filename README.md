@@ -1,2 +1,3 @@
-# geographiclib-get-geoids
-A deb package source for downloading datasets for geographic lib.
+# mrs-geographiclib-get-datasets
+
+A deb package soure for automating the download of _geographiclib-*_ datasets (geoid, magnetic, gravity).
