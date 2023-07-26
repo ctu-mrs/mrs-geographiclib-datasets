@@ -37,7 +37,7 @@ git checkout $BRANCH
 git config user.email github@github.com
 git config user.name github
 
-rm mrs-uav-shell-additions_*"$ARCH".deb || echo "$0: there are no older *.deb packages to remove"
+rm mrs-geographiclib-datasets_*"$ARCH".deb || echo "$0: there are no older *.deb packages to remove"
 
 cp $GITHUB_WORKSPACE/*.deb ./
 
