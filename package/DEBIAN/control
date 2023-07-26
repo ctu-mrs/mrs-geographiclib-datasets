@@ -1,4 +1,4 @@
-Package: mrs-geographiclib-get-datasets
+Package: mrs-geographiclib-datasets
 Version: 1.0.0
 Architecture: amd64
 Maintainer: Tomas Baca <tomas.baca@fel.cvut.cz>
