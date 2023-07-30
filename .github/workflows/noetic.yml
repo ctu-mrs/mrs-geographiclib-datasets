@@ -35,7 +35,7 @@ jobs:
         run: .ci/build_package.sh /tmp/debs_to_push
 
       - name: Deploy to unstable
-        run: .ci_scripts/package_build/push_to_ppa.sh /tmp/debs_to_push unstable
+        run: .ci_scripts/package_build/push_to_ppa.sh unstable /tmp/debs_to_push
 
       - name: Deploy to stable
-        run: .ci_scripts/package_build/push_to_ppa.sh /tmp/debs_to_push stable
+        run: .ci_scripts/package_build/push_to_ppa.sh stable /tmp/debs_to_push
