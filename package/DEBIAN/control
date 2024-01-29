@@ -1,6 +1,6 @@
 Package: mrs-geographiclib-datasets
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: Tomas Baca <tomas.baca@fel.cvut.cz>
-Description: Automatic trigger for downloading geographic-lib datasets
+Description: Supply for geographiclib datasets
 Depends: geographiclib-tools
